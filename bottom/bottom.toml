@@ -1,0 +1,15 @@
+[flags]
+battery = false
+color = "nord"
+mem_as_value = true
+[[row]]
+    [[row.child]]
+      type="cpu"
+    [[row.child]]
+      type="mem"
+    [[row.child]]
+      type="net"
+[[row]]
+  [[row.child]]
+  type="process"
+

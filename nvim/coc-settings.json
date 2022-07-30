@@ -1,0 +1,16 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "rust",
+    "markdown",
+    "javascript",
+    "javascript.jsx",
+    "typescript",
+    "json",
+    "typescriptreact"
+  ],
+  "rust-analyzer.inlayHints.enable": true,
+  "rust-analyzer.checkOnSave.command": "clippy",
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true
+}
