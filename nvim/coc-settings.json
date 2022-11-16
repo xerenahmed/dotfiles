@@ -7,10 +7,14 @@
     "javascript.jsx",
     "typescript",
     "json",
-    "typescriptreact"
+    "typescriptreact",
+    "php"
   ],
   "rust-analyzer.inlayHints.enable": true,
   "rust-analyzer.checkOnSave.command": "clippy",
   "typescript.inlayHints.variableTypes.enabled": true,
-  "typescript.inlayHints.propertyDeclarationTypes.enabled": true
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+	"php-cs-fixer.activateTool": "php-cs-fixer"
 }

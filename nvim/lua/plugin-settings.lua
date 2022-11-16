@@ -24,7 +24,7 @@ require'bufferline'.setup {
   -- Enable/disable icons
   -- if set to 'numbers', will show buffer index in the tabline
   -- if set to 'both', will show buffer index and icons in the tabline
-  icons = true,
+  icons = "both",
 
   -- If set, the icon color will follow its corresponding buffer
   -- highlight group. By default, the Buffer*Icon group is linked to the
@@ -65,3 +65,4 @@ require'bufferline'.setup {
   -- where X is the buffer number. But only a static string is accepted here.
   no_name_title = nil,
 }
+

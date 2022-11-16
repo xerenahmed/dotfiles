@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@yaegassy/coc-tailwindcss3": ">=0.3.3",
+    "coc-eslint": ">=1.5.8",
+    "coc-go": ">=1.1.0",
+    "coc-json": ">=1.4.2",
+    "coc-prettier": ">=9.3.1",
+    "coc-rust-analyzer": ">=0.65.3",
+    "coc-tsserver": ">=1.10.5",
+    "coc-yaml": ">=1.8.0",
+    "coc-tailwindcss": ">=0.7.0",
+    "coc-blade": ">=0.14.3",
+    "coc-php-cs-fixer": ">=0.7.4"
+  },
+  "disabled": [],
+  "locked": []
+}

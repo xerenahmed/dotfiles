@@ -1,0 +1,10 @@
+php-cs-fixer.dryRunDiff
+php-cs-fixer.fix
+rust-analyzer.reloadWorkspace
+rust-analyzer.reloadWorkspace
+prettier.formatFile
+prettier.formatFile
+prettier.formatFile
+prettier.formatFile
+tailwindCSS.forceActivate
+go.version

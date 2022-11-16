@@ -32,7 +32,7 @@ map('n', 'o0', '<Cmd>BufferLast<CR>', opts)
 -- Pin/unpin buffer
 -- map('n', 'kp', '<Cmd>BufferPin<CR>', opts)
 -- Close buffer
-map('n', 'ok', '<Cmd>BufferClose<CR>', opts)
+map('n', 'ow', '<Cmd>BufferClose<CR>', opts)
 -- Wipeout buffer
 --                 :BufferWipeout
 -- Close commands
@@ -48,3 +48,6 @@ map('n', '<Space>bb', '<Cmd>BufferOrderByBufferNumber<CR>', opts)
 map('n', '<Space>bd', '<Cmd>BufferOrderByDirectory<CR>', opts)
 map('n', '<Space>bl', '<Cmd>BufferOrderByLanguage<CR>', opts)
 map('n', '<Space>bw', '<Cmd>BufferOrderByWindowNumber<CR>', opts)
+
+vim.g.copilot_no_tab_map = true
+vim.api.nvim_set_keymap("i", "<C-J>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
